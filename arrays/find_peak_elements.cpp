@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int findPeak(int *arr, int arr_size)
+int find_peak(int *arr, int arr_size)
 {
     if (arr_size == 1)
     {
@@ -55,7 +55,7 @@ int main()
     {
         cin >> arr[i];
     }
-    findPeak(arr, arr_size);
+    find_peak(arr, arr_size);
 
     return 0;
 }
